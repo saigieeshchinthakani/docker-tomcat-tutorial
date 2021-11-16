@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: senthil123/tomcatuidemo:4
+      - image: 7075/tomcatuidemo:4
         imagePullPolicy: Always
         name: myweb
 
@@ -34,5 +34,5 @@ spec:
   type: NodePort
   ports:
   - nodePort: 31123
-    port: 8080
-    targetPort: 8080
+    port: 8083
+    targetPort: 8083
