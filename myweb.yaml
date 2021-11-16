@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: 7075/tomcatuidemo:4
+      - image: 7075/tomcat:4
         imagePullPolicy: Always
         name: myweb
 
